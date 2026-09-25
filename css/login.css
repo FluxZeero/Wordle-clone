@@ -1,0 +1,138 @@
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 80vh;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background-color: white;
+    padding: 50px 60px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+}
+
+.login-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.login-container h1 {
+    font-size: 36px;
+    margin: 0;
+    color: black;
+}
+
+.login-text {
+    font-size: 18px;
+    color: #666;
+    margin: 0 0 20px 0;
+}
+
+.login-text-error {
+    font-size: 18px;
+    color: red;
+    margin: 0 0 20px 0;
+}
+
+.login-text-success {
+    font-size: 18px;
+    color: #4CAF50;
+    margin: 0 0 20px 0;
+}
+
+.login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.form-group input::placeholder {
+    color: #aaa;
+}
+
+/* bottone login */
+.login-btn {
+    width: 100%;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background-color: #45a049;
+}
+
+.login-links {
+    margin-top: 20px;
+}
+
+.login-links p {
+    font-size: 16px;
+    color: #666;
+}
+
+.login-links a {
+    color: #FF9800;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.login-links a:hover {
+    color: #e68900;
+}
+
+.error-message {
+    color: #ff4444;
+    font-size: 0.85em;
+    display: block;
+    margin-top: 5px;
+}
